@@ -39,9 +39,7 @@ for i, words in enumerate(token):
     print(f"Dokumen {i+1}: {words}")
 
 # Langkah 4 - Hasil Preprocessing
-print("\n--------------------------------------------------")
-print("Hasil Preprocessing:")
+print("\nHasil Preprocessing:")
 for i, words in enumerate(token):
     words = ", ".join(words)
     print(f"Dokumen {i+1}: {words}")
-print("--------------------------------------------------")
